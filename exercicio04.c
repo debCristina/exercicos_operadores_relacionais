@@ -4,10 +4,10 @@ main(){
 
     //4. Leia o peso e imprima se é menor que 60kg;
 
-    float peso;
+    double peso;
 
     printf("Informe o seu peso: ");
-    scanf("%f", &peso);
+    scanf("%lf", &peso);
 
     if(peso < 60){
         printf("Voce tem menos que 60 kg");
