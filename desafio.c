@@ -6,16 +6,11 @@ main(){
     //Se media < 4 -> REPROVADO
     //Senao media>= 4 < 7 -> RECUPERACAO
 
-    float nota1, nota2, media;
+    float media;
 
-    printf("Primeira nota: ");
-    scanf("%f", &nota1);
-
-    printf("Segunda nota: ");
-    scanf("%f", &nota2);
-
-    media = (nota1 + nota2) / 2;
-
+    printf("Digite sua media: ");
+    scanf("%f", &media);
+    
     if(media >= 7.0){
         printf("APROVADO");
 
@@ -24,7 +19,6 @@ main(){
 
     }else{
         printf("RECUPERACAO");
-
     }
 
 }
